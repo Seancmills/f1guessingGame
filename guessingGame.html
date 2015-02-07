@@ -1,0 +1,13 @@
+<script>
+var answer, guess, message;
+answer = 5
+guess = prompt("Guess how many fingers I am holding up.");
+	if (guess == answer) {
+		message = "Great Job! You answered correctly!";
+	}else if (guess > answer) {
+		message = "Too high try again by refreshing";
+	}else if (guess < answer) {
+    message = "Too low try again by refreshing";
+  };
+	alert(message);
+</script>
